@@ -1,3 +1,8 @@
+body{
+    background-color: lightsalmon;
+    font-family: Helvetica, sans-serif;
+}
+
 form{
     margin-top: 5%;
     margin-left: auto;
@@ -6,8 +11,20 @@ form{
     position: relative;
 }
 
+fieldset{
+    background-color: white;
+    border-radius: 5%;
+    border: lightgoldenrodyellow solid 5px;
+}
+
 legend{
     margin-left: 10%;
+    background-color: darksalmon;
+    color: lightgoldenrodyellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: lightgoldenrodyellow solid 2px;
 }
 
 div{
@@ -27,4 +44,28 @@ div{
 
 .checkbox{
     width: 80px;
+}
+
+button{
+    width: 200px;
+    background-color: darksalmon;
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: lightgoldenrodyellow;
+    color: darksalmon;
+}
+
+button:active{
+    background-color: goldenrod;
+    color: black;
+}
+
+p, .checkbox{
+    font-size: small;
 }
